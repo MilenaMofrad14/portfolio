@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Milena Mofrad Portfolio</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/45123220ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- NAVBAR SECTION -->
+    <nav class = "navbar">
+        <div class="navbar__container">
+            <a href="?" id="navbar__logo">  
+                <i class="fa-solid fa-diamond"></i> Milena Mofrad</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item" >
+                    <div class = "dropdown">
+                        <a href="tutorial.html" class="navbar__links">Tutorials
+                        </a>
+                          
+                        <div class="dropdown-content">
+                            <a href="/tutorialOOP1.html">OOP 1</a>
+                            <a href="/tutorialOOP2.html">OOP 2</a>
+                            <a href="/tutorialArrays.html">Arrays</a>
+                            <a href="/tutorialRecursion.html">Recursion</a>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="navbar__item">
+                    <a href="aboutme.html" class="navbar__links">About Me</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="projects.html" class="navbar__links">Projects</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="bibliography.html" class="navbar__links">Bibliography</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="index.html" class="button">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main SECTION-->
+    <div class="main" id = "jump__main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>OOP 1</h1>
+                
+                <h2>What is an object? </h2>
+                <div class="main__content__box">
+                    <p>An object is something that has an identity, a state, and a behaviour
+                        <br><br>Identity - identifiers
+                        <br>State - variables
+                        <br>Behavior - methods
+                    </p>
+                </div>
+                
+                <h2>What is a class?</h2>
+                <div class="main__content__box">
+                    <p>A class is a blueprint for a type of object. 
+                        Multiple objects can be created using the same class.</p>
+                    <p>
+                        You can think of classes and objects as cookies and cookie cutters. 
+                        The class is the cookie cutter, and the objects are the cookies. You use the cookie 
+                        cutter to create many cookies with the same shape, but the cookies may have different 
+                        flavors. 
+                        There is only one cookie cutter, but you can make as many cookies as you’d like.
+                    </p>
+                </div>
+                
+                <h2>Static methods</h2>
+                <div class="main__content__box">
+                    <p>Static methods are methods that belong to a class definition. 
+                        They are a part of the class but they are not a part of the objects of the
+                         class, so they can be called without creating an object.</p>
+                </div>
+                
+                <h2>What is a constructor?</h2>
+                <div class="main__content__box">
+                    <p>A constructor is used to create the objects of a class. It initializes objects and sets 
+                        initial values for object attributes. It is called when objects are created. If you do 
+                        not create a constructor, java creates a default constructor. You can also create multiple
+                         constructors with different parameters. This 
+                        can be helpful when you have many objects that will have the same attribute for an object. 
+                    </p>
+                </div>
+               
+                <h2>Encapsulation</h2>
+                <div class="main__content__box">
+                    <p>Variables and methods can be public or private. Making things 
+                        private means they can only be accessed from within the class. Accessing
+                         private variables can be done using set and get 
+                        methods. Get methods get the variable value, while set methods change the variable value </p>
+                </div>
+               
+            </div>
+            <!--<div class="header__img--container">
+                <img src="images/pic1.svg" alt="pic" id="header__img">
+            </div>-->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

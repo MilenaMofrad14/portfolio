@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Milena Mofrad Portfolio</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/45123220ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- NAVBAR SECTION -->
+    <nav class = "navbar">
+        <div class="navbar__container">
+            <a href="?" id="navbar__logo">  
+                <i class="fa-solid fa-diamond"></i> Milena Mofrad</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item" >
+                    <div class = "dropdown">
+                        <a href="tutorial.html" class="navbar__links">Tutorials
+                        </a>
+                          
+                        <div class="dropdown-content">
+                            <a href="/tutorialOOP1.html">OOP 1</a>
+                            <a href="/tutorialOOP2.html">OOP 2</a>
+                            <a href="/tutorialArrays.html">Arrays</a>
+                            <a href="/tutorialRecursion.html">Recursion</a>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="navbar__item">
+                    <a href="aboutme.html" class="navbar__links">About Me</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="projects.html" class="navbar__links">Projects</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="bibliography.html" class="navbar__links">Bibliography</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="index.html" class="button">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main SECTION-->
+    <div class="main" id = "jump__main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Arrays</h1>
+                <h2>What is an array?</h2>
+                <div class="main__content__box">
+                    <p>A structure consisting of values that have the same data type stored in 
+                        the same block of memory. 
+                        They can store strings, primitive data types, and even objects. </p>
+                </div>
+                <h2>Terminology </h2>
+                <div class="main__content__box">
+                    <p>Element : Individual locations in array
+                        <br>
+                        Index: Represent location in array. Written in square brackets after name of array (arr[1]) You can access any element in the array using its index. 
+                        <br>
+                        Array Length: An array length is determined when it is initialized and it cannot be changed after. 
+                        <br> 
+                        2D arrays: Used when information needs to be stored in rows and columns. </p>
+                </div>
+                <h2>Array Declaration and Initialization</h2>
+                <div class="main__content__box">
+                    <p>Arrays are declared with their data type followed by square brackets. 
+                        They can be initialized with values, and their values can later be changed.</p>
+                    <p>An array can be passed into methods and returned from methods the way other 
+                        data types are, the original array passed through will not be changed.</p>
+                </div>
+                <h2>ArrayList</h2>
+                <div class="main__content__box">
+                    <p>An ArrayList uses an array to store elements, but its size can be changed.
+                         Elements can be removed or added. The ArrayList works by keeping track of 
+                         how many elements are currently in the array (size), and how the length of the 
+                        array (capacity). When the list runs out of space, the capacity doubles. 
+                    </p>
+                    <p>ArrayLists are initialized with their type in corner brackets. </p>
+                </div>
+                <h2>Searching</h2>
+                <div class="main__content__box">
+                    <p>Searching algorithms are used to find a specific value in an array. 
+                        One of the searching algorithms is sequential search.</p>
+                </div>
+                <h2>Sequential Search</h2>
+                <div class="main__content__box">
+                    <p>Sequential search starts with the first element in the array, and checks if it 
+                        is the targeted element, if it is not it continues. 
+                        It loops through the array, checking each element, until the targeted element is found.</p>
+                </div>
+                <h2>Sorting</h2>
+                <div class="main__content__box">
+                    <p>Sorting algorithms are used to reorganize arrays in a specific order, often from least 
+                        to greatest or greatest to least. There are many 
+                        different sorting algorithms that vary in speed, effectiveness, and complexity to learn. </p>
+                </div>
+                <h2>Selection Sort</h2>
+                <div class="main__content__box">
+                    <p>This sorting algorithm creates a sorted and unsorted section of the 
+                        array. It finds the maximum value of the unsorted section and moves 
+                        it to the beginning of the unsorted section. This continues until the 
+                        entire array is in the sorted section. </p>
+                </div>
+
+            </div>
+                
+            <!--<div class="header__img--container">
+                <img src="images/pic1.svg" alt="pic" id="header__img">
+            </div>-->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
